@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    
+
+    //Variáveis Globais
+    int a = 5;
+    int b = 20;
+
+    //Operadores Matemáticos 
+    int soma = a + b; 
+    int subtração = a - b;
+    int multiplicação = a * b;
+    int divisão = a / b;
+
+    //Operadores de Atribuição
+    a += 1;
+    b -= 1;
+    a *= 2;
+    b /= 2;
+
+    //Operadores de Incremetno e Descremento
+    a++;
+    b--;
+
+    return 0;
+}
